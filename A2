@@ -2,9 +2,12 @@
 
 int main(void)
 {
-    printf(" /\\_/\\ \n");  
-    printf("(• . •) \n");
-    printf("/     \\ \n");  
+    printf("    *\n");  
+    printf("   ***\n");
+    printf("  *****\n");
+    printf(" *******\n");
+    printf("  HHHH\n");
+    printf("  ZZZZZ\n");
     
     return 0;
 }
