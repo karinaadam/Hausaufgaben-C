@@ -4,14 +4,14 @@ int main(void)
 {
     int a, b, c, d, e;
 
-    printf("Enter numbers\n");
+    printf("Enter Numbers\n");
     scanf("%d%d%d", &a, &b, &c);
 
     d = a + b + c;
     e = a * b * c;
 
-    printf("Addition of %d, %d and %d is %d\n", a, b, c, d);
-    printf("Multiplication of %d, %d and %d is %d\n", a, b, c, e);
+    printf("%d+%d+%d=%d\n", a, b, c, d);
+    printf("%d*%d*%d=%d\n", a, b, c, e);
 
     return 0;
 }
