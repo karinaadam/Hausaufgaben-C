@@ -2,9 +2,14 @@
 
 int main(void)
 {
-    int a = 4, b = 5, c = 7;
+    int a, b, c, d;
 
-    printf("%d+%d+%d=%d", a, b, c, a + b + c);
+    printf("Enter value of a, b, and c\n");
+    scanf("%d%d%d", &a, &b, &c);
+
+    d = a + b + c;
+
+    printf("Addition of %d, %d and %d is %d\n", a, b, c, d);
 
     return 0;
 }
