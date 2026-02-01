@@ -2,10 +2,16 @@
 
 int main(void)
 {
-    int a = 1, b = 2, c = 3;
+    int a, b, c, d, e;
 
-    printf("%d+%d+%d=%d\n", a, b, c, a + b + c);
-    printf("%d*%d*%d=%d", a, b, c, a * b * c);
+    printf("Enter value of a, b, and c\n");
+    scanf("%d%d%d", &a, &b, &c);
+
+    d = a + b + c;
+    e = a * b * c;
+
+    printf("Addition of %d, %d and %d is %d\n", a, b, c, d);
+    printf("Multiplication of %d, %d and %d is %d\n", a, b, c, e);
 
     return 0;
 }
