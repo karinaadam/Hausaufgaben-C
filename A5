@@ -1,13 +1,20 @@
 #include <stdio.h>
 
 int main(void)
-{ int a=4, b=7, c=8, limit=3, sum=0;
-	float average=0.0;
-	
-	sum=a+b+c;
-	average=(float)sum/limit;
-	
-	printf("average=%.2f\n", average);
-	
-	return 0;
+{
+    int num, limit=3, count, sum= 0;
+    float avg = 0.0;
+    
+    printf("Enter %d numbers\n", limit);
+    for(count = 1; count <= limit; count++)
+   {
+   scanf ("%d", &num);
+   sum=sum + num;
+   }
+   avg =(float)sum / limit;
+   
+   printf("Average = %0.2f\n", avg);
+   
+
+    return 0;
 }
