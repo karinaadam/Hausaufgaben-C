@@ -9,7 +9,7 @@ int main(void)
 
     d = a + b + c;
 
-    printf("Addition of %d, %d and %d is %d\n", a, b, c, d);
+    printf("%d+%d+%d=%d\n", a, b, c, d);
 
     return 0;
 }
